@@ -9,8 +9,8 @@ describe("twoSums", () => {
   });
 });
 
-  describe("is a valid function", () => {
+describe("is a valid function", () => {
   it("should be a valid function", () => {
-    expect(typeof twoSums, 'function');
+    expect(typeof twoSums).to.equal('function');
   });
 });
